@@ -59,7 +59,6 @@ const Checkout = () => {
 ><Text mr='30px'>
     Pague com cartão de crédito ou débito -&#62; 
     </Text>
-
             <StripeCheckout
             stripeKey='pk_test_51KAJfzHiM8NvJQ7K3VfCt1fmxHFd8QuvV938DQcITum6UO4ANpO4BTjWsdIfZed0jvE9fPNFyH6DFi9lyqNmz3SV004eraSwlH'
             token={()=>handleToken}
