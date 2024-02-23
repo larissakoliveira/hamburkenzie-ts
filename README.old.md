@@ -1,1 +1,0 @@
-# react-entrega-s5-template-hamburgueria-2.0-com-typescript-e-json-server

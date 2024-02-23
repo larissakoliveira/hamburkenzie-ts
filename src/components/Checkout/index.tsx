@@ -26,8 +26,6 @@ const Checkout = () => {
             token
         });
         const { status } = response.data
-        console.log(response.data)
-        console.log(status)
         if (status === 'success') {
             toast({
                 position: "top-right",

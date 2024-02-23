@@ -71,9 +71,13 @@ const CartProvider = ({ children }: CartProviderProps) => {
       .catch((err) => console.log(err));
   }, []);
 
+  console.log(cart)
+
   useEffect(() => {
     getCart();
   }, [getCart]);
+
+  console.log(cart)
 
   const addToCart = (product: CartProductsData) => {
     const productWithUserId = { ...product, userId, "quantity": 1 };

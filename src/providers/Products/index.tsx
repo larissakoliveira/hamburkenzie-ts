@@ -49,7 +49,6 @@ export const ProductsProvider = ({ children }: ProductsProps) => {
 
   const [inputValue, setInputValue] = useState("");
 
-  console.log(inputValue)
   useEffect(() => {
     api
       .get("/products")

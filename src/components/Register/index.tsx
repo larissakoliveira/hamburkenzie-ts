@@ -4,9 +4,7 @@ import {
   Flex,
   Grid,
   Heading,
-  HStack,
   Image,
-  Stack,
   Text,
   VStack,
 } from "@chakra-ui/react";
@@ -52,7 +50,6 @@ const Register = () => {
   });
 
   const handleForm = (data: FormData) => {
-    console.log(data)
     signUp(data);
   };
 
@@ -174,7 +171,7 @@ const Register = () => {
                 />
               </Box>
             </VStack>
-            <Box mt="4" spacing="5">
+            <Box mt="4" p="5">
             <Button
               type="submit"
               bg="gray.100"

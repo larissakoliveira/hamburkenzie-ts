@@ -11,29 +11,6 @@ const Card = () => {
   return (
     <Grid w='100%' templateColumns='repeat(auto-fill, minmax(230px, 1fr))' gap={10} padding='8' mt='65px'>
      
-      {/* {  filteredProducts.length > 0 ?
-       filteredProducts.map((item) => (
-      <Box
-      borderRadius="5px"
-      border="1px solid"
-      borderColor="gray.300"
-      w="100%"
-      h="100%"
-      padding='40px'
-      key={item.id}
-      >
-      <Image
-      height="158px"
-      widht="158px"
-      src={item.image}
-      alt={item.title}
-      />
-      <Text textAlign='center' fontWeight='bold'>{item.title}</Text>
-      <Text margin='5px'>{item.category}</Text>
-      <h3>Preço: <b>{item.price.toFixed(2)}</b></h3>
-      <Button onClick={() => addToCart(filteredProducts as any)}>Adicionar</Button>
-      </Box>))
-      : */}
       {products.map((item, index) => (
         <Box
          _hover={{ borderColor: "gray.300" }}
